@@ -1,0 +1,3069 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.03963235, g: 0.026810119, b: 0.034503464, a: 0.11}
+  m_AmbientEquatorColor: {r: 0.01254, g: 0.01375, b: 0.01463, a: 0.11}
+  m_AmbientGroundColor: {r: 0.00517, g: 0.00473, b: 0.00385, a: 0.11}
+  m_AmbientIntensity: 0.11
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 993462522}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &10037060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 146194, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 10037061}
+  - component: {fileID: 10037062}
+  m_Layer: 0
+  m_Name: eye_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10037061
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442658, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 10037060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2088689794}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &10037062
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13736968, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 10037060}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f16c157d09ea2cb45a1ff39893239a14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300010, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+  m_Bones:
+  - {fileID: 668826681}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 668826681}
+  m_AABB:
+    m_Center: {x: -0.051510304, y: -0.031719923, z: -0.0950602}
+    m_Extent: {x: 0.018811552, y: 0.016921438, z: 0.0187046}
+  m_DirtyAABB: 0
+--- !u!1 &15877926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143772, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 15877927}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandMiddle4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &15877927
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 407016, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 15877926}
+  m_LocalRotation: {x: -0.27298656, y: 0.35247496, z: -0.32472527, w: 0.8341422}
+  m_LocalPosition: {x: 0.012257559, y: 0.0017531636, z: -0.017937731}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1981489186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &90768389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 146348, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 90768390}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &90768390
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 492428, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 90768389}
+  m_LocalRotation: {x: -0.37399682, y: 0.790217, z: -0.36665273, w: 0.31819698}
+  m_LocalPosition: {x: -0.021521538, y: 0.008338462, z: 0.023432435}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 899178738}
+  m_Father: {fileID: 604077045}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &91191450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 104692, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 91191451}
+  m_Layer: 0
+  m_Name: transform21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &91191451
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 495894, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 91191450}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &112715595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150826, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 112715596}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &112715596
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485308, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 112715595}
+  m_LocalRotation: {x: 0.10429797, y: 0.40281266, z: 0.77284783, w: 0.47913477}
+  m_LocalPosition: {x: -0.0024742684, y: -0.019067315, z: 0.005174184}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 696440213}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &147483836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184910, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 147483837}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147483837
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 436750, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 147483836}
+  m_LocalRotation: {x: 0.18174098, y: -0.080089204, z: -0.03544448, w: 0.9794384}
+  m_LocalPosition: {x: 0.04106963, y: -0.39052063, z: -0.019153487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1452086799}
+  m_Father: {fileID: 1766935031}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &149140009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177570, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 149140010}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &149140010
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 410844, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 149140009}
+  m_LocalRotation: {x: 0.36600518, y: 0.21303959, z: -0.599919, w: 0.6787868}
+  m_LocalPosition: {x: 0.17346652, y: -0.16085783, z: 0.070076786}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 938667831}
+  - {fileID: 247909403}
+  - {fileID: 342776216}
+  - {fileID: 604077045}
+  - {fileID: 1384019707}
+  - {fileID: 1984733131}
+  m_Father: {fileID: 1955516588}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &247909402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114458, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 247909403}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &247909403
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 476096, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 247909402}
+  m_LocalRotation: {x: -0.22014621, y: -0.57406086, z: 0.10063271, w: 0.7822166}
+  m_LocalPosition: {x: -0.012509568, y: 0.083471805, z: 0.040848006}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+  m_Children:
+  - {fileID: 1744999021}
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &335476085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143380, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 335476086}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335476086
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 411848, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 335476085}
+  m_LocalRotation: {x: -0.15812998, y: -0.27461523, z: -0.015093733, w: 0.94834256}
+  m_LocalPosition: {x: -0.12634918, y: -0.048007205, z: 0.000000013542614}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+  m_Children:
+  - {fileID: 1282947075}
+  m_Father: {fileID: 1758352167}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &342776215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 134354, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 342776216}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &342776216
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 409068, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 342776215}
+  m_LocalRotation: {x: -0.14556985, y: -0.42272708, z: 0.18287794, w: 0.87559515}
+  m_LocalPosition: {x: 0.0024885419, y: 0.07257365, z: 0.0554672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1000299468}
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &373529285
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cdc59572683562419339184f78e70a0, type: 2}
+    - target: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2333.8186
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+  m_RootGameObject: {fileID: 1000868819}
+  m_IsPrefabParent: 0
+--- !u!1 &450106130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 185072, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 450106131}
+  - component: {fileID: 450106132}
+  m_Layer: 0
+  m_Name: eye_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450106131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488682, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 450106130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2088689794}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &450106132
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13768146, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 450106130}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f16c157d09ea2cb45a1ff39893239a14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300008, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+  m_Bones:
+  - {fileID: 668826681}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 668826681}
+  m_AABB:
+    m_Center: {x: 0.015616878, y: -0.049345385, z: -0.1008288}
+    m_Extent: {x: 0.018886916, y: 0.016070526, z: 0.018701322}
+  m_DirtyAABB: 0
+--- !u!1 &491746448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 135238, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 491746449}
+  m_Layer: 0
+  m_Name: transform20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491746449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485488, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 491746448}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &507139078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 185502, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 507139079}
+  - component: {fileID: 507139080}
+  m_Layer: 0
+  m_Name: body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507139079
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 468008, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 507139078}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2088689794}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &507139080
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13752326, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 507139078}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4c59d34a687a8624da093edc3106a625, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300004, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+  m_Bones:
+  - {fileID: 1758352167}
+  - {fileID: 335476086}
+  - {fileID: 1282947075}
+  - {fileID: 797297406}
+  - {fileID: 1962010452}
+  - {fileID: 1257420134}
+  - {fileID: 1766935031}
+  - {fileID: 147483837}
+  - {fileID: 1452086799}
+  - {fileID: 1376661961}
+  - {fileID: 877307422}
+  - {fileID: 1934997899}
+  - {fileID: 848740910}
+  - {fileID: 679074688}
+  - {fileID: 1284598069}
+  - {fileID: 889110427}
+  - {fileID: 2084358453}
+  - {fileID: 1620047113}
+  - {fileID: 2051202643}
+  - {fileID: 909264913}
+  - {fileID: 1065713573}
+  - {fileID: 2125678575}
+  - {fileID: 1000896503}
+  - {fileID: 1771316187}
+  - {fileID: 1256791185}
+  - {fileID: 1402128773}
+  - {fileID: 1234399162}
+  - {fileID: 1264386160}
+  - {fileID: 1590224220}
+  - {fileID: 600902557}
+  - {fileID: 1013550765}
+  - {fileID: 1345682103}
+  - {fileID: 1952698083}
+  - {fileID: 1769893052}
+  - {fileID: 1113064072}
+  - {fileID: 850716308}
+  - {fileID: 1236256219}
+  - {fileID: 1824238024}
+  - {fileID: 1284535357}
+  - {fileID: 1955516588}
+  - {fileID: 149140010}
+  - {fileID: 1984733131}
+  - {fileID: 2109540894}
+  - {fileID: 1668021633}
+  - {fileID: 2034028109}
+  - {fileID: 247909403}
+  - {fileID: 1744999021}
+  - {fileID: 696440213}
+  - {fileID: 112715596}
+  - {fileID: 342776216}
+  - {fileID: 1000299468}
+  - {fileID: 1981489186}
+  - {fileID: 15877927}
+  - {fileID: 1384019707}
+  - {fileID: 1079907317}
+  - {fileID: 1428559536}
+  - {fileID: 1771921890}
+  - {fileID: 604077045}
+  - {fileID: 90768390}
+  - {fileID: 899178738}
+  - {fileID: 1349420862}
+  - {fileID: 1502112754}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1758352167}
+  m_AABB:
+    m_Center: {x: -0.015148103, y: -0.11437601, z: 0.027909249}
+    m_Extent: {x: 0.65420634, y: 0.80907124, z: 0.49639544}
+  m_DirtyAABB: 0
+--- !u!1 &600902556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 103290, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 600902557}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &600902557
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 454032, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 600902556}
+  m_LocalRotation: {x: -0.091551654, y: 0.8988121, z: 0.2810089, w: -0.3237114}
+  m_LocalPosition: {x: 0.016554652, y: -0.058336385, z: -0.06346082}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1013550765}
+  m_Father: {fileID: 2084358453}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &604077044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147022, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 604077045}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &604077045
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 453088, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 604077044}
+  m_LocalRotation: {x: -0.035276268, y: -0.31540242, z: 0.2699387, w: 0.90907097}
+  m_LocalPosition: {x: 0.01512641, y: 0.030941745, z: 0.07949157}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 90768390}
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &668826680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 153478, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 668826681}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &668826681
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 402098, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 668826680}
+  m_LocalRotation: {x: 0.027092796, y: 0.59641117, z: 0.1996913, w: 0.77697045}
+  m_LocalPosition: {x: -0.10392727, y: 0.006086044, z: -0.012576859}
+  m_LocalScale: {x: 0.9999999, y: 1.0000005, z: 1.0000001}
+  m_Children:
+  - {fileID: 1271418587}
+  - {fileID: 491746449}
+  - {fileID: 91191451}
+  - {fileID: 883624538}
+  - {fileID: 2069209244}
+  - {fileID: 2044476548}
+  m_Father: {fileID: 1502112754}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &679074687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154708, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 679074688}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &679074688
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403738, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 679074687}
+  m_LocalRotation: {x: -0.090285785, y: 0.30480036, z: 0.65967673, w: 0.68100804}
+  m_LocalPosition: {x: -0.19369726, y: -0.00000003054466, z: 0.000000011710257}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+  m_Children:
+  - {fileID: 1284598069}
+  m_Father: {fileID: 848740910}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &696440212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188504, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 696440213}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &696440213
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 466502, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 696440212}
+  m_LocalRotation: {x: 0.4127524, y: 0.6975387, z: -0.50271755, w: -0.30058327}
+  m_LocalPosition: {x: 0.007156899, y: -0.016529512, z: 0.012481781}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 112715596}
+  m_Father: {fileID: 1744999021}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &797297405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 158872, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 797297406}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797297406
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479362, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 797297405}
+  m_LocalRotation: {x: 0.089623936, y: -0.00073249865, z: 0.00913971, w: 0.9959335}
+  m_LocalPosition: {x: -0.03470037, y: -0.38848868, z: -0.08217414}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 1962010452}
+  m_Father: {fileID: 1282947075}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &848740909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177492, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 848740910}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848740910
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 499082, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 848740909}
+  m_LocalRotation: {x: 0.22663008, y: -0.33816028, z: -0.48883665, w: 0.77157325}
+  m_LocalPosition: {x: -0.0000000012202186, y: 0.22596002, z: 7.684005e-10}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.9999997}
+  m_Children:
+  - {fileID: 679074688}
+  - {fileID: 1502112754}
+  - {fileID: 1824238024}
+  m_Father: {fileID: 1934997899}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &850716307
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178924, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 850716308}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850716308
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485356, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 850716307}
+  m_LocalRotation: {x: 0.44142628, y: -0.4348428, z: 0.77977103, w: 0.089508325}
+  m_LocalPosition: {x: -0.018080335, y: -0.0022996722, z: -0.0063930335}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 1236256219}
+  m_Father: {fileID: 1113064072}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &877307421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 152792, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 877307422}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightFootIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877307422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 454280, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 877307421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.016990064, y: -0.0006982607, z: 0.08205819}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 1376661961}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &883624537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130688, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 883624538}
+  m_Layer: 0
+  m_Name: transform22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &883624538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 434886, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 883624537}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &889110426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114578, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 889110427}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889110427
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 447216, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 889110426}
+  m_LocalRotation: {x: 0.23085766, y: 0.947645, z: 0.20593077, w: -0.079159945}
+  m_LocalPosition: {x: 0.016296819, y: -0.19968301, z: -0.22650486}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 2084358453}
+  m_Father: {fileID: 1284598069}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &899178737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139840, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 899178738}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandPinky3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &899178738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 421364, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 899178737}
+  m_LocalRotation: {x: 0.754705, y: -0.12795432, z: 0.5348679, w: -0.35772112}
+  m_LocalPosition: {x: 0.014342566, y: 0.01293636, z: -0.000023533168}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999999}
+  m_Children:
+  - {fileID: 1349420862}
+  m_Father: {fileID: 90768390}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &909264912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140208, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 909264913}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &909264913
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 433318, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 909264912}
+  m_LocalRotation: {x: -0.28635636, y: -0.526732, z: 0.7775063, w: -0.18983525}
+  m_LocalPosition: {x: 0.0023130819, y: -0.018549105, z: 0.022275645}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 1065713573}
+  m_Father: {fileID: 2051202643}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &924041161
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_RootGameObject: {fileID: 2088689792}
+  m_IsPrefabParent: 0
+--- !u!1 &938667830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 161116, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 938667831}
+  - component: {fileID: 938667833}
+  - component: {fileID: 938667832}
+  m_Layer: 0
+  m_Name: Cleaver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938667831
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 426150, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 938667830}
+  m_LocalRotation: {x: 0.88177085, y: 0.07876403, z: -0.1831662, w: -0.42746526}
+  m_LocalPosition: {x: -0.018435162, y: 0.03226745, z: 0.049355954}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &938667832
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2360632, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 938667830}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3342310638daed94b8bea56739eb23ac, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &938667833
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3360018, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 938667830}
+  m_Mesh: {fileID: 4300000, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+--- !u!1 &993462521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 993462523}
+  - component: {fileID: 993462522}
+  m_Layer: 0
+  m_Name: Spotlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &993462522
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 993462521}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.86764705, g: 0.85180765, b: 0.81022924, a: 1}
+  m_Intensity: 1.1
+  m_Range: 9.8
+  m_SpotAngle: 80
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &993462523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 993462521}
+  m_LocalRotation: {x: 0.96094704, y: -0.04221649, z: 0.21772446, w: 0.16551338}
+  m_LocalPosition: {x: -1.029, y: 1.729, z: 1.744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000299467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186270, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1000299468}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1000299468
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 417294, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1000299467}
+  m_LocalRotation: {x: -0.045208536, y: 0.8752935, z: 0.108417794, w: -0.46910894}
+  m_LocalPosition: {x: -0.014883069, y: -0.010084301, z: 0.03875229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1981489186}
+  m_Father: {fileID: 342776216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000868819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+  m_PrefabInternal: {fileID: 373529285}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1000868823}
+  - component: {fileID: 1000868822}
+  - component: {fileID: 1000868821}
+  - component: {fileID: 1000868820}
+  m_Layer: 0
+  m_Name: plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1000868820
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: 7f84e503b2ac338479dff8466166f8e3,
+    type: 3}
+  m_PrefabInternal: {fileID: 373529285}
+  m_GameObject: {fileID: 1000868819}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!23 &1000868821
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 7f84e503b2ac338479dff8466166f8e3,
+    type: 3}
+  m_PrefabInternal: {fileID: 373529285}
+  m_GameObject: {fileID: 1000868819}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7cdc59572683562419339184f78e70a0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1000868822
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 7f84e503b2ac338479dff8466166f8e3,
+    type: 3}
+  m_PrefabInternal: {fileID: 373529285}
+  m_GameObject: {fileID: 1000868819}
+  m_Mesh: {fileID: 4300000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+--- !u!4 &1000868823
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 7f84e503b2ac338479dff8466166f8e3, type: 3}
+  m_PrefabInternal: {fileID: 373529285}
+  m_GameObject: {fileID: 1000868819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2.92}
+  m_LocalScale: {x: 2333.8186, y: 1198.7445, z: 1198.7445}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000896502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 161088, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1000896503}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1000896503
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 421464, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1000896502}
+  m_LocalRotation: {x: 0.48669747, y: -0.1636887, z: 0.7471117, w: -0.42208514}
+  m_LocalPosition: {x: -0.018455353, y: -0.013377781, z: 0.032522302}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1771316187}
+  m_Father: {fileID: 2125678575}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1013550764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 141416, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1013550765}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1013550765
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 468602, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1013550764}
+  m_LocalRotation: {x: -0.43216613, y: 0.13857646, z: -0.3136472, w: 0.834059}
+  m_LocalPosition: {x: -0.0028361967, y: -0.042856686, z: 0.010648012}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 1345682103}
+  m_Father: {fileID: 600902557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1045672574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1045672579}
+  - component: {fileID: 1045672578}
+  - component: {fileID: 1045672577}
+  - component: {fileID: 1045672576}
+  - component: {fileID: 1045672575}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1045672575
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045672574}
+  m_Enabled: 1
+--- !u!124 &1045672576
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045672574}
+  m_Enabled: 1
+--- !u!92 &1045672577
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045672574}
+  m_Enabled: 1
+--- !u!20 &1045672578
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045672574}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.20588237, g: 0.20588237, b: 0.20588237, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 31
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1045672579
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045672574}
+  m_LocalRotation: {x: 0.000000008564762, y: 0.99861723, z: -0.052570138, w: -0.0000001626954}
+  m_LocalPosition: {x: -0.4, y: 1.29, z: 3.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1065713572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136594, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1065713573}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1065713573
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 427752, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1065713572}
+  m_LocalRotation: {x: 0.8227793, y: -0.5185963, z: 0.08706054, w: -0.2156678}
+  m_LocalPosition: {x: -0.0145354895, y: -0.0052231047, z: 0.020750176}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 909264913}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1079907316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 160452, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1079907317}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1079907317
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 493208, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1079907316}
+  m_LocalRotation: {x: 0.29933333, y: 0.088259, z: 0.91984683, w: 0.23768009}
+  m_LocalPosition: {x: -0.020120906, y: -0.001675481, z: 0.039375942}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1428559536}
+  m_Father: {fileID: 1384019707}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1113064071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143332, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1113064072}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1113064072
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 487238, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1113064071}
+  m_LocalRotation: {x: 0.44416672, y: 0.80287844, z: 0.3300665, w: -0.22171684}
+  m_LocalPosition: {x: 0.0038683398, y: -0.028167533, z: -0.016535126}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 850716308}
+  m_Father: {fileID: 1769893052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1234399161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140104, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1234399162}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1234399162
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 421286, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1234399161}
+  m_LocalRotation: {x: 0.7864218, y: -0.46730956, z: 0.23891546, w: 0.32570228}
+  m_LocalPosition: {x: -0.007673681, y: -0.034226343, z: 0.024384586}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1264386160}
+  m_Father: {fileID: 1402128773}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236256218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 110450, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1236256219}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236256219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 478310, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1236256218}
+  m_LocalRotation: {x: 0.12310554, y: -0.56011546, z: 0.62340075, w: 0.5314953}
+  m_LocalPosition: {x: 0.0038746512, y: 0.009602341, z: -0.008871486}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 850716308}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1256791184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 115870, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1256791185}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandIndex4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256791185
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 437256, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1256791184}
+  m_LocalRotation: {x: -0.10250505, y: -0.2667142, z: 0.45695364, w: 0.84234774}
+  m_LocalPosition: {x: -0.013786619, y: 0.0022362447, z: -0.014190983}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 1771316187}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1257420133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137600, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1257420134}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftFootIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1257420134
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 410006, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1257420133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.016990026, y: -0.00069826184, z: 0.08205822}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 1962010452}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1262714531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1262714533}
+  - component: {fileID: 1262714532}
+  m_Layer: 0
+  m_Name: Spotlight (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1262714532
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262714531}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.9264706, g: 0.8417164, b: 0.77660036, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 89
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1262714533
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262714531}
+  m_LocalRotation: {x: 0.891579, y: -0.051087026, z: -0.32032844, w: 0.31601712}
+  m_LocalPosition: {x: 1.59, y: 2.34, z: 1.239}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1264386159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 119504, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1264386160}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1264386160
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 411138, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1264386159}
+  m_LocalRotation: {x: 0.85045, y: 0.24972713, z: 0.14542028, w: -0.4395727}
+  m_LocalPosition: {x: 0.026909549, y: 0.008663026, z: 0.00090657774}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1590224220}
+  m_Father: {fileID: 1234399162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1271418586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114596, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1271418587}
+  m_Layer: 0
+  m_Name: transform19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1271418587
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 466844, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1271418586}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1282947074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 180638, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1282947075}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282947075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 430266, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1282947074}
+  m_LocalRotation: {x: 0.06777611, y: 0.03698423, z: 0.006864573, w: 0.9969912}
+  m_LocalPosition: {x: -0.041069668, y: -0.39052084, z: -0.019153483}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 797297406}
+  m_Father: {fileID: 335476086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1284535356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 128808, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1284535357}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284535357
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 426178, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1284535356}
+  m_LocalRotation: {x: 0.20229869, y: 0.97638977, z: -0.013220385, w: 0.0745889}
+  m_LocalPosition: {x: -0.14521766, y: 0.032321107, z: 0.010104337}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+  m_Children:
+  - {fileID: 1955516588}
+  m_Father: {fileID: 1824238024}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1284598068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 141050, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1284598069}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1284598069
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422636, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1284598068}
+  m_LocalRotation: {x: 0.61575645, y: 0.5971893, z: 0.48083895, w: -0.18166678}
+  m_LocalPosition: {x: -0.14760001, y: -0.012757887, z: 0.016923605}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children:
+  - {fileID: 889110427}
+  m_Father: {fileID: 679074688}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1345682102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140356, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1345682103}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1345682103
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 460984, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1345682102}
+  m_LocalRotation: {x: 0.2986964, y: 0.19540924, z: 0.089019015, w: 0.92987704}
+  m_LocalPosition: {x: 0.017316796, y: -0.013114535, z: -0.007397989}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1952698083}
+  m_Father: {fileID: 1013550765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1349420861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 117888, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1349420862}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandPinky4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349420862
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 438868, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1349420861}
+  m_LocalRotation: {x: 0.1776394, y: -0.56949306, z: 0.631072, w: -0.49585286}
+  m_LocalPosition: {x: 0.003470469, y: -0.013174902, z: -0.0005450551}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 899178738}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1376661960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 156820, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1376661961}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightFootIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1376661961
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 469290, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1376661960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.039365746, y: -0.059763357, z: 0.1439416}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+  m_Children:
+  - {fileID: 877307422}
+  m_Father: {fileID: 1452086799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1384019706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114998, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1384019707}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1384019707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 455440, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1384019706}
+  m_LocalRotation: {x: 0.02094107, y: -0.39723307, z: 0.22349456, w: 0.8898413}
+  m_LocalPosition: {x: 0.009675338, y: 0.053337786, z: 0.06903584}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 1079907317}
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1402128772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125270, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1402128773}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1402128773
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 429674, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1402128772}
+  m_LocalRotation: {x: -0.16677885, y: 0.91320527, z: 0.12859075, w: -0.348863}
+  m_LocalPosition: {x: 0.012068934, y: -0.0412761, z: -0.08062473}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 1234399162}
+  m_Father: {fileID: 2084358453}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1407950874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1407950876}
+  - component: {fileID: 1407950875}
+  m_Layer: 0
+  m_Name: Spotlight (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1407950875
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407950874}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 0
+  m_Color: {r: 0.77660036, g: 0.8892614, b: 0.9264706, a: 1}
+  m_Intensity: 0.8
+  m_Range: 10
+  m_SpotAngle: 89
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1407950876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407950874}
+  m_LocalRotation: {x: 0.13066962, y: 0.25608417, z: -0.93832237, w: 0.19208743}
+  m_LocalPosition: {x: 0.030000022, y: 2.34, z: -2.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1428559535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125528, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1428559536}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1428559536
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 421334, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1428559535}
+  m_LocalRotation: {x: 0.11926371, y: -0.33862984, z: 0.9043784, w: -0.23066384}
+  m_LocalPosition: {x: 0.0016012365, y: 0.010821674, z: -0.020172281}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.99999976}
+  m_Children:
+  - {fileID: 1771921890}
+  m_Father: {fileID: 1079907317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1452086798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 119472, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1452086799}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1452086799
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 495860, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1452086798}
+  m_LocalRotation: {x: -0.026563298, y: -0.06610978, z: -0.009396817, w: 0.99741447}
+  m_LocalPosition: {x: 0.034700368, y: -0.38848898, z: -0.082174174}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+  m_Children:
+  - {fileID: 1376661961}
+  m_Father: {fileID: 147483837}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1502112753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154700, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1502112754}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1502112754
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 452912, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1502112753}
+  m_LocalRotation: {x: -0.7538654, y: 0.39465287, z: -0.074820295, w: 0.5199404}
+  m_LocalPosition: {x: -0.22032711, y: 0.061888557, z: -0.03400612}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 668826681}
+  m_Father: {fileID: 848740910}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1590224219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 129984, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1590224220}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandMiddle4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1590224220
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 472990, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1590224219}
+  m_LocalRotation: {x: -0.16777267, y: 0.052345566, z: 0.73537594, w: 0.65447265}
+  m_LocalPosition: {x: 0.018763999, y: 0.010005186, z: 0.004784484}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 1264386160}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1620047112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 127566, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1620047113}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620047113
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423004, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1620047112}
+  m_LocalRotation: {x: -0.47108907, y: 0.5566389, z: -0.5457271, w: -0.41280767}
+  m_LocalPosition: {x: -0.023427445, y: 0.005697741, z: -0.03573774}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 2051202643}
+  m_Father: {fileID: 2084358453}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1668021632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 130600, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1668021633}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668021633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 429954, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1668021632}
+  m_LocalRotation: {x: -0.5841528, y: 0.68923444, z: -0.37551558, w: 0.20666268}
+  m_LocalPosition: {x: -0.013946474, y: 0.0056990776, z: -0.024872448}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children:
+  - {fileID: 2034028109}
+  m_Father: {fileID: 2109540894}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1688740857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 179448, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1688740858}
+  - component: {fileID: 1688740859}
+  m_Layer: 0
+  m_Name: head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1688740858
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 461198, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1688740857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2088689794}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1688740859
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 13748556, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1688740857}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f16c157d09ea2cb45a1ff39893239a14, type: 2}
+  - {fileID: 2100000, guid: f16c157d09ea2cb45a1ff39893239a14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+  m_Bones:
+  - {fileID: 848740910}
+  - {fileID: 679074688}
+  - {fileID: 1824238024}
+  - {fileID: 1502112754}
+  - {fileID: 668826681}
+  m_BlendShapeWeights:
+  - 0
+  - 0
+  - 0
+  m_RootBone: {fileID: 848740910}
+  m_AABB:
+    m_Center: {x: -0.28713107, y: 0.12507302, z: 0.0007610619}
+    m_Extent: {x: 0.27188635, y: 0.24087796, z: 0.222505}
+  m_DirtyAABB: 0
+--- !u!1 &1744999020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188010, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1744999021}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744999021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 452400, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1744999020}
+  m_LocalRotation: {x: -0.05984199, y: 0.8595168, z: 0.33312637, w: -0.3829839}
+  m_LocalPosition: {x: -0.003972719, y: -0.019879162, z: 0.034151226}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 696440213}
+  m_Father: {fileID: 247909403}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1758352166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 148016, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1758352167}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1758352167
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 458520, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1758352166}
+  m_LocalRotation: {x: 0.00648105, y: 0.33036864, z: -0.035297167, w: 0.9431695}
+  m_LocalPosition: {x: -0.023343533, y: 0.892071, z: -0.09412872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 335476086}
+  - {fileID: 1766935031}
+  - {fileID: 1934997899}
+  m_Father: {fileID: 1771941601}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1766935030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100938, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1766935031}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1766935031
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403918, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1766935030}
+  m_LocalRotation: {x: -0.1774124, y: 0.04902279, z: 0.07429916, w: 0.9801027}
+  m_LocalPosition: {x: 0.12634912, y: -0.048007168, z: -0.00000002128535}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+  m_Children:
+  - {fileID: 147483837}
+  m_Father: {fileID: 1758352167}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1769893051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150812, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1769893052}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769893052
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 476364, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1769893051}
+  m_LocalRotation: {x: 0.029519638, y: 0.7914956, z: 0.56372786, w: -0.2342524}
+  m_LocalPosition: {x: 0.018904515, y: -0.07286815, z: -0.04287139}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 1113064072}
+  m_Father: {fileID: 2084358453}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771316186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 138070, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1771316187}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandIndex3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771316187
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 419114, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1771316186}
+  m_LocalRotation: {x: -0.536912, y: 0.18073036, z: 0.7928822, w: 0.2244992}
+  m_LocalPosition: {x: 0.01572985, y: -0.01330424, z: 0.0074706315}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1256791185}
+  m_Father: {fileID: 1000896503}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771921889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165078, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1771921890}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771921890
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 474942, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1771921889}
+  m_LocalRotation: {x: -0.13236281, y: -0.6266636, z: 0.65292263, w: -0.4043079}
+  m_LocalPosition: {x: 0.015902834, y: 0.010820063, z: -0.007229542}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1428559536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1771941600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105148, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1771941601}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Reference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771941601
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408784, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1771941600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1758352167}
+  m_Father: {fileID: 2088689794}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1824238023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 175162, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1824238024}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1824238024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 412608, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1824238023}
+  m_LocalRotation: {x: -0.2561199, y: 0.8844311, z: -0.25848445, w: -0.29218146}
+  m_LocalPosition: {x: -0.16178857, y: 0.06903357, z: -0.08110134}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 1284535357}
+  m_Father: {fileID: 848740910}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1934997898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 195540, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1934997899}
+  m_Layer: 0
+  m_Name: thebutcher_hik_Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1934997899
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 472280, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1934997898}
+  m_LocalRotation: {x: -0.012454156, y: -0.012960483, z: 0.031205904, w: 0.9993514}
+  m_LocalPosition: {x: 0.000000037733173, y: 0.12812015, z: 0.000000031873544}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 848740910}
+  m_Father: {fileID: 1758352167}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1952698082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124660, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1952698083}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1952698083
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 432948, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1952698082}
+  m_LocalRotation: {x: 0.22216465, y: 0.18705824, z: -0.7004546, w: 0.6519322}
+  m_LocalPosition: {x: 0.012672906, y: -0.011731678, z: 0.011135711}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1345682103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1955516587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 158464, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1955516588}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1955516588
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 424212, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1955516587}
+  m_LocalRotation: {x: 0.29381815, y: -0.5517903, z: 0.40377802, w: 0.6679534}
+  m_LocalPosition: {x: 0.21943209, y: -0.20271105, z: 0.04691419}
+  m_LocalScale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+  m_Children:
+  - {fileID: 149140010}
+  m_Father: {fileID: 1284535357}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962010451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 179374, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1962010452}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftFootIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962010452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457058, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1962010451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03936576, y: -0.059763357, z: 0.14394157}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 1257420134}
+  m_Father: {fileID: 797297406}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1981489185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 156352, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1981489186}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981489186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 406546, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1981489185}
+  m_LocalRotation: {x: 0.62248725, y: 0.41660866, z: 0.66081417, w: -0.04765979}
+  m_LocalPosition: {x: 0.0070097083, y: -0.014408299, z: 0.02330788}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 15877927}
+  m_Father: {fileID: 1000299468}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1984733130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 183364, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1984733131}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1984733131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 471470, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 1984733130}
+  m_LocalRotation: {x: 0.9194086, y: 0.24771477, z: -0.0825029, w: -0.29414022}
+  m_LocalPosition: {x: -0.028085291, y: 0.03268796, z: 0.0011002362}
+  m_LocalScale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+  m_Children:
+  - {fileID: 2109540894}
+  m_Father: {fileID: 149140010}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2034028108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 158760, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2034028109}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2034028109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479530, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2034028108}
+  m_LocalRotation: {x: -0.12894307, y: -0.3131352, z: -0.6759155, w: 0.6545673}
+  m_LocalPosition: {x: -0.02515656, y: 0.0025593766, z: -0.00545242}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1668021633}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2044476547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 193626, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2044476548}
+  m_Layer: 0
+  m_Name: transform25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044476548
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 439366, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2044476547}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2051202642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 138926, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2051202643}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051202643
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 426860, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2051202642}
+  m_LocalRotation: {x: -0.20358203, y: -0.38041312, z: -0.7176101, w: 0.5466955}
+  m_LocalPosition: {x: -0.024065964, y: 0.018577892, z: 0.0007879315}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_Children:
+  - {fileID: 909264913}
+  m_Father: {fileID: 1620047113}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2069209243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 192716, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2069209244}
+  m_Layer: 0
+  m_Name: transform24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2069209244
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405814, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2069209243}
+  m_LocalRotation: {x: 0.08506123, y: 0.8572544, z: -0.4983955, w: -0.09737278}
+  m_LocalPosition: {x: -0.08194648, y: -0.7905198, z: 1.3730754}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 668826681}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2084358452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 115292, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2084358453}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2084358453
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 491440, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2084358452}
+  m_LocalRotation: {x: -0.119389124, y: 0.9398312, z: -0.21516693, w: 0.23699553}
+  m_LocalPosition: {x: -0.18166491, y: 0.000445685, z: 0.16695571}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 2125678575}
+  - {fileID: 1402128773}
+  - {fileID: 1769893052}
+  - {fileID: 600902557}
+  - {fileID: 1620047113}
+  m_Father: {fileID: 889110427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2088689792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 123906, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2088689794}
+  - component: {fileID: 2088689793}
+  m_Layer: 0
+  m_Name: TheButcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &2088689793
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9513674, guid: 9671885335b1d4e40872935bf605a829,
+    type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2088689792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 1c770b5eee1cf5d4ea185cf8cb701bcb, type: 3}
+  m_Controller: {fileID: 9100000, guid: 0d945e98d3dfa3147ba5e46f65b84b95, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!4 &2088689794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 475342, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2088689792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.39, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 507139079}
+  - {fileID: 450106131}
+  - {fileID: 10037061}
+  - {fileID: 1688740858}
+  - {fileID: 1771941601}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2109540893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 121114, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2109540894}
+  m_Layer: 0
+  m_Name: thebutcher_hik_RightHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109540894
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451828, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2109540893}
+  m_LocalRotation: {x: -0.51881015, y: -0.05942795, z: 0.22431062, w: 0.8227935}
+  m_LocalPosition: {x: -0.001533303, y: -0.027224492, z: 0.013468724}
+  m_LocalScale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1668021633}
+  m_Father: {fileID: 1984733131}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2125678574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 129818, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2125678575}
+  m_Layer: 0
+  m_Name: thebutcher_hik_LeftHandIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2125678575
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 439378, guid: 9671885335b1d4e40872935bf605a829, type: 2}
+  m_PrefabInternal: {fileID: 924041161}
+  m_GameObject: {fileID: 2125678574}
+  m_LocalRotation: {x: -0.32022023, y: 0.8617073, z: -0.10368359, w: -0.37969622}
+  m_LocalPosition: {x: -0.0012770263, y: -0.02449206, z: -0.090504654}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1000896503}
+  m_Father: {fileID: 2084358453}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
